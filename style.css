@@ -1,0 +1,272 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #efd3b8;
+}
+
+.nav_bar{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_bar{
+
+}
+
+.menu_bar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_bar ul li{
+  list-style: none;
+  padding: 0 20px;
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.menu_bar ul li:hover{
+  color: #000;
+  text-shadow: 2px 2px #808080af;
+  transition: linear 0.2s;
+}
+
+.order_bar{
+  padding-right: 20px;
+}
+
+.order_bar span{
+  font-weight: 400;
+  color: rgb(61, 61, 61);
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.order_bar span:hover{
+  color: #bb6e6e;
+  font-weight: 700;
+  text-shadow: 2px 2px #c5858573;
+  transition: linear 0.2s;
+}
+
+.order_bar i {
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.order_bar i:hover{
+  color: #bb6e6e;
+  font-weight: 700;
+  text-shadow: 2px 2px #c5858573;
+  transition: linear 0.2s;
+}
+
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/* image */
+.food_image{
+  width: 700px;
+  overflow: hidden;
+}
+
+.food_image img{
+  transition: transform .5s ease;
+}
+
+.food_image img:hover{
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+
+/* information */
+.food_information{
+  width: 450px;
+}
+
+.name{
+  font-size: 40px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+
+.description{
+  font-size: 24px;
+  font-weight: 200;
+  color: #777777;
+}
+
+.price{
+  font-size: 24px;
+  font-weight: 600;
+  color: #4e4e4e;
+}
+
+
+/* order info block*/
+.order_infor{
+  padding-top: 40px;
+}
+
+.order_content{
+  font-size: 40px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+
+.shop_name{
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.address{
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.phone_number{
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+
+/* Order menu */
+.order_menu{
+
+}
+
+.order_menu ul{
+  padding-left: 0px;
+  padding-top: 20px;
+  list-style: none;
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.order_menu ul li{
+  padding: 5px 0px;
+  color: #4e4e4e;
+}
+
+.order_menu ul li:hover{
+  color: #8b8b8b;
+  text-decoration: underline;
+  transition: linear 0.1s;
+}
+
+
+/* Footer */
+.footer{
+  background-color: #efd3b8;
+  padding: 20px;
+}
+
+.footer_nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_nav{
+
+}
+
+.company_nav ul{
+  padding-left: 0;
+  list-style: none;
+  font-weight: 200;
+  color: rgb(61, 61, 61);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.company_nav ul li{
+  padding: 5px 0px;
+  color: #4e4e4e;
+}
+
+.company_nav ul li:hover{
+  color: #8b8b8b;
+  text-decoration: underline;
+  transition: linear 0.1s;
+}
+
+.company_nav h3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+.ship_nav{
+
+}
+
+.ship_nav img{
+  display: block;
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.more_info_nav{
+
+}
+
+.more_info_nav ul{
+  padding-left: 0;
+  list-style: none;
+  font-weight: 200;
+  color: rgb(61, 61, 61);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.more_info_nav h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+.more_info_nav ul li{
+  padding: 5px 0px;
+  color: #4e4e4e;
+}
+
+.more_info_nav ul li:hover{
+  color: #8b8b8b;
+  text-decoration: underline;
+  transition: linear 0.1s;
+}
+
+.footer_main_content {
+  padding-top: 20px;
+}
+
+.footer_main_content span{
+  display: block;
+  text-align: center;
+  color: #777777;
+  padding: 2px;
+}
